@@ -26,12 +26,14 @@ def send_xrp(seed, amount, destination):
     client = xrpl.clients.JsonRpcClient(testnet_url)
     payment = xrpl.models.transactions.Payment(
         account=sending_wallet.address,
-        amount=xrpl.utils.xrp_to_drops(int(amount)),
+        #amount=xrpl.utils.xrp_to_drops(int(amount)), #Original code, converts amount to drops, but caused a Transaction failed: tecUNFUNDED_PAYMENT error
+        amount=amount,
         destination=destination,
     )
     try:	
         response = xrpl.transaction.submit_and_wait(payment, client, sending_wallet)	
     except xrpl.transaction.XRPLReliableSubmissionException as e:	
+        print(e)
         response = f"Submit failed: {e}"
 
     return response
