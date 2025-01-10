@@ -5,14 +5,45 @@ Run a test harness for XRPL features using Python UI and module files.
 The examples are iterative, building one on another to gradually introduce new behavior. For a full explanation, see the XRPL Quickstart Tutorial (Python).
 
 # Tutorial Source
-
 https://xrpl.org/docs/tutorials/python/send-payments
 
 
-# Testing Records:
+# Lesson 1 - [lesson1-send-xrp](https://xrpl.org/docs/tutorials/python/send-payments/create-accounts-send-xrp)
+- Create sample accounts
+- Send XRP
+- Display Account Info
+- Viewing test wallets
+    - https://devnet.xrpl.org/accounts/rJmadnk4pGAvMt9AdU18ppebZDgBLzrhdy
+    - https://devnet.xrpl.org/accounts/rJNiCBGB83JWSsTgdTo4AZqyuwjPPnhaZi
 
-Viewing test wallets
+### Changes
+- Hard coded account seed/account
+- Preload account seed/account info
+- Fix some errors
 
-https://devnet.xrpl.org/accounts/rJmadnk4pGAvMt9AdU18ppebZDgBLzrhdy
+#### Notes
+- See issue [here](https://github.com/rickeygalloway/xrpl_python/issues/1)
 
-https://devnet.xrpl.org/accounts/rJNiCBGB83JWSsTgdTo4AZqyuwjPPnhaZi
+# Lesson 2 - [lesson2-send-currency](https://xrpl.org/docs/tutorials/python/send-payments/create-trust-line-send-currency)
+- Create Trust line (relationship between 2 accounts concerning a specific currency)
+- 
+
+#### Changes
+- 
+- 
+
+#### Notes
+- 
+- 
+
+# Lesson X - [file](xrpl tutorial url)
+- 
+- 
+
+#### Changes
+- 
+- 
+
+#### Notes
+- 
+- 

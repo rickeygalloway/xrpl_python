@@ -42,7 +42,7 @@ def send_currency(seed, destination, currency, amount):
         account=sending_wallet.address,
         amount=xrpl.models.amounts.IssuedCurrencyAmount(
             currency=currency,
-            value=int(amount),
+            value=amount,   #changed from int
             issuer=sending_wallet.address
         ),
         destination=destination
