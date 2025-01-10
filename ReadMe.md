@@ -26,6 +26,15 @@ https://xrpl.org/docs/tutorials/python/send-payments
 
 # Lesson 2 - [lesson2-send-currency](https://xrpl.org/docs/tutorials/python/send-payments/create-trust-line-send-currency)
 - Create Trust line (relationship between 2 accounts concerning a specific currency)
+
+#### Changes
+- Fix some errors
+
+#### Notes
+- Rippling - https://xrpl.org/docs/concepts/tokens/fungible-tokens/rippling
+
+# Lesson 3 - [flesson3-mint-tokenile](https://xrpl.org/docs/tutorials/python/nfts/mint-and-burn-nfts)
+- 
 - 
 
 #### Changes
